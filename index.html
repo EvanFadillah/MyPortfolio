@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo-text">Ervan <span>Fadillah</span></div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="mailto:ervan.bungas38@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle"
+            onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm 
+                        <span class="name-text">Ervan Fadillah</span>
+                    </small></h1>
+
+                    <p>a web and mobile developer based in South Kalimantan, 
+                        Indonesia,<br>
+                        who finds joy in coding.</p>
+
+                    <div class="call-to-action">
+                        <a href="./images/resume.pdf" class="button">
+                            View Resume
+                        </a>
+                        <a href="mailto:ervan.bungas38@gmail.com" class="button">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/EvanFadillah" target="_blank">
+                            <img src="./images/github.png" alt="Github"
+                            width="58">
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammad-ervan-fadillah-23855725b/" target="_blank">
+                            <img src="./images/linkedIn.png" alt="LinkedIn"
+                            width="78">
+                        </a>
+                        <a href="https://www.instagram.com/ervnfdllh__/" target="_blank">
+                            <img src="./images/instagram.png" alt="Instagram"
+                            width="48">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-red">
+                <img src="./images/myself1.png" alt="Ervan Fadillah" width="100%">
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./images/html1.png" 
+                    alt="HTML" width="128">
+                    <img src="./images/css1.png" 
+                    alt="CSS" width="128">
+                    <img src="./images/javascript.jpg" 
+                    alt="javascript" width="128">
+                    <img src="./images/react.png" 
+                    alt="React" width="128">
+                    <img src="./images/python1.png" 
+                    alt="Python" width="128">
+                    <img src="./images/kotlin1.png" 
+                    alt="kotlin" width="128">
+                    <img src="./images/bootstrap1.png" 
+                    alt="Bootstrap" width="150">
+                    <img src="./images/android studio1.png" alt="Android Studio" width="128">
+                    <img src="./images/vscode1.png" 
+                    alt="Vscode" width="128">
+                    <img src="./images/html1.png" 
+                    alt="HTML" width="128">
+                    <img src="./images/css1.png" 
+                    alt="CSS" width="128">
+                    <img src="./images/javascript.jpg" 
+                    alt="javascript" width="128">
+                    <img src="./images/react.png" 
+                    alt="React" width="128">
+                    <img src="./images/python1.png" 
+                    alt="Python" width="128">
+                    <img src="./images/kotlin1.png" 
+                    alt="kotlin" width="128">
+                    <img src="./images/bootstrap1.png" 
+                    alt="Bootstrap" width="150">
+                    <img src="./images/android studio1.png" alt="Android Studio" width="128">
+                    <img src="./images/vscode1.png" 
+                    alt="Vscode" width="128">
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                    <h3>Backend</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Kotlin</li>
+
+                        </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>Hey there, i'm Ervan a web and mobile developer based in South Kalimantan, 
+                        Indonesia, who finds joy in coding.</p>
+                    <p>I'm also a 6th semester law student 
+                        who is looking to transition his carreer from law to the tech industry 
+                        and currently working on an app for The Capstone Project provided by Bangkit Academy</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bento container">
+            <h2><small>
+                Recent
+            </small>
+        Projects</h2>
+        <div class="bento-grid">
+            <div class="bento-item">
+                <a href="https://github.com/EvanFadillah/Random-quote-machine" target="_blank">
+                <img src="./images/projects/rqm.png" alt="Random Quote Machine" width="100%">
+                <div class="bento-text">
+                    <h3>Random Quote Machine</h3>
+                    <p>A simple web project that can generate a random quote each time it's clicked</p>
+                </a>
+                </div>
+                </div>
+          
+                <div class="bento-item">      
+                    <a href="https://github.com/EvanFadillah/Story_App" target="_blank">
+                    <img src="./images/projects/DISCOVER.png" alt="Story App" width="100%">
+                    <div class="bento-text">
+                        <h3>Story App</h3>
+                        <p>A simple app that clone snapchat where you can see someone's story and location</p>
+                    </a>
+                    </div>
+                </div>
+            <div class="bento-item">
+                <a href="https://github.com/EvanFadillah/Github_Followers_App" target="_blank">
+                    <img src="./images/projects/Followers .png" alt="Github follow" width="100%">
+                    <div class="bento-text">
+                        <h3>Github followers app</h3>
+                        <p>An app that display users github followers and following</p>
+                    </a>
+                    </div>
+            </div>
+            <div class="bento-item">
+                <a href="https://github.com/EvanFadillah/Teran-Mobile-Development" target="_blank">
+                    <img src="./images/projects/Inprogress.png" alt="Teran" width="100%">
+                    <div class="bento-text">
+                        <h3>Teran</h3>
+                        <p>Final project from Bangkit Academy, an app that track user stress.</p>
+                    </a>
+                    </div>
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
