@@ -324,6 +324,10 @@ h3 {
     @media (max-width: 1024px) {
         font-size: 48px;
     }
+
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
 }
 
 .bento {
